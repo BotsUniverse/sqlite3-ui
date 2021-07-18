@@ -1,0 +1,7 @@
+{
+    "100": "Everything is alright",
+    "101": "File is not database error.",
+    "102": "Table exists error.",
+    "103": "Table not exists error.",
+    "104": "Column name not string error."
+}
