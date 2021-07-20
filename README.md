@@ -41,3 +41,5 @@ C:\>npm -v
 C:\>python -V
 Python 3.9.x
 ```
+## License
+<img alt="GitHub" src="https://img.shields.io/github/license/Botsuniverse/sqlite3-ui?style=social">
