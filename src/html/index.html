@@ -6,39 +6,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sqlite3</title>
   <link rel="shortcut icon" href="./../images/logo.svg" type="image/svg">
+  <link rel="stylesheet" href="./../css/index.css">
 </head>
 <body>
 
+
+
+  <!-- The place where all the popups stay -->
+  <section id="popupArea">
+
+  </section>
+
+
   <!-- section where all the temporaty stuffs are saved -->
   <section id="temp_stuff" style="display:none;">
-    <input data-value="filename" value="" data-temp/>
-    <input data-value="tabel_name" value="" data-temp/>
-    <input data-value="tabel_names" value="" data-temp/>
-    <input data-value="column_names" value="" data-temp/>
+    <input onchange="console.log('Input')" data-state="close" data-value="filename" value="" data-temp/>
+    <input onchange="temp_change()" data-state="close" data-value="tabel_name" value="" data-temp/>
+    <input onchange="temp_change()" data-state="close" data-value="tabel_names" value="" data-temp/>
+    <input onchange="temp_change()" data-state="close" data-value="column_names" value="" data-temp/>
   </section>
   <!-- End of the temporary stuffs area -->
 
 
 
-  <div>
-    <label for="file">File</label>
-    <input type="file" id="file" oninput="fileSelected()">
-  </div>
 
 
-  <div>
-    <label for="tabelname">Enter a tabel name to be created</label>
-    <input type="text" id="tabelname" name="tabelname">
-    <input type="text" id="columnnames" name="tabelname">
-    <button onclick="create_tabel(
-      (dat, err)=>{console.log(dat, err)}
-    )">Create Tabel</button>
-  </div>
+  <!-- the entry area to be shown up if the database file is not selected -->
+  <section id="databaseEntryPage">
+    <div>
+      <div>
+        <div class="display-1 primary">Select A Database File To Operate</div>        
+        <input type="file" name="" id="databaseFileChooser" />
+        <button id="selectedDatabaseFile">Start</button>
+      </div>
+    </div>
+  </section>
+  <!-- End of the entry -->
+
+
+
+  <section id="mainUI">
+
+    <input type="text" id="databaseFileInput"></input>
+    <input type="text" id="newTabelEntry"></input>
+    <select type="text" id="tabelNames"></select>
+
+    <input type="button" id="deleteTabel" value="deleteTabel" />
+    <input type="button" id="createTabelBtn" value="createTabelBtn" />
+    <input type="button" id="createDatabaseBtn" value="createDatabaseBtn" />
+    <input type="button" id="createColumnBtn" value="createColumnBtn" />
+    <input type="button" id="editColumnBtn" value="editColumnBtn" />
+    <input type="button" id="saveColumnValue" value="saveColumnValue" />
+
+
+    <div id="columnsDisplay">
+
+    </div>
+
+
+  </section>
 
 
 
 
 </body>
+<script>
+  setTimeout(()=>{
+    window.location.href = window.location.href
+  }, 3000)
+</script>
+<!-- main jquery script -->
 <script src="./../js/jquery.min.js"></script>
-<script src="./../js/index.js"></script>
+
+<!-- The scripts below should be in the sane order -->
+<script src="./../js/consts.js"></script>
+<script src="./../js/functions.js"></script>
+<script src="./../js/sessions.js"></script>
+<script src="./../js/server.js"></script>
+<script src="./../js/ui.js"></script>
+
+
+
 </html>
