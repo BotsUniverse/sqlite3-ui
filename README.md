@@ -49,3 +49,4 @@ Python 3.9.x
 .> See [Contributrs](https://github.com/BotsUniverse/sqlite3-ui/graphs/contributors) Tab For More
 
 ### Privacy Policy 
+[Click Here To Know More](https://telegra.ph/Privacy-Policy-07-20-5)
