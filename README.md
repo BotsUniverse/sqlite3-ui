@@ -18,26 +18,26 @@ To install the requirements
 
 _Python:_
 ```bash
-    $ python manage.py install
+python manage.py install
 ```
 _Npm:_
 ```bash
-    $ npm install
+npm install
 ```
 
 *To start:*
 ```bash
-    $ python manage.py start
+python manage.py start
 ```
 
 Requirements:
-```bash
-    $ node-v
-    v14.17.x
+```cmd
+C:\>node-v
+v14.17.x
 
-    $ npm -v
-    6.14.x
+C:\>npm -v
+6.14.x
 
-    $ python -V
-    Python 3.9.x
+C:\>python -V
+Python 3.9.x
 ```
