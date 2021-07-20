@@ -8,7 +8,7 @@ A try to create a userinterface to go along with the sqlite3 database using pyht
 [![Releases](https://img.shields.io/badge/Releases-Not%20Released-red.svg)]()|[![Progress](https://img.shields.io/badge/Progress-Progressing-blue.svg)]()
 
 ---
-# [Also See houitworks.md](https://github.com/BotsUniverse/sqlite3-ui/blob/main/howitworks.md)
+# [Also See howitworks.md](https://github.com/BotsUniverse/sqlite3-ui/blob/main/howitworks.md)
 ---
 
 ## Contributing
