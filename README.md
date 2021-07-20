@@ -45,7 +45,7 @@ Python 3.9.x
 <img alt="GitHub" src="https://img.shields.io/github/license/Botsuniverse/sqlite3-ui?style=social">
 
 ## Author
->> [Parvat R](www.telegram.me/Parvat_R)
+>> [Parvat R](https://www.telegram.me/Parvat_R)
 
 >> See [Contributrs](https://github.com/BotsUniverse/sqlite3-ui/graphs/contributors) Tab For More
 
