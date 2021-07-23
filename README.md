@@ -57,7 +57,7 @@ See [Contributrs](https://github.com/BotsUniverse/sqlite3-ui/graphs/contributors
 [Click Here To Know More](https://telegra.ph/Privacy-Policy-07-20-5)
 
 ## Donate Us
-
+<a href="www.paypal.me/rohith204"><img src="https://img.shields.io/badge/Paypal-Donate%20Us-blue&logoColor=Silver&style=social">
 
 ## Extra Infos
 <img alt="GitHub Discussions" src="https://img.shields.io/github/discussions/Botsuniverse/sqlite3-ui?style=for-the-badge">
